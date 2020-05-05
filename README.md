@@ -1,8 +1,6 @@
 <div class="page">
 </div>
 <h1 class="sectionedit2" id="generic_hash_types">Hashcat Cheatsheet</h1>
-# Hashcat-Cheatsheet
-
 
 ## MAX POWER!
 I have found that I can squeeze some more power out of my hash cracking by adding these parameters:
@@ -203,6 +201,12 @@ shuf dict.txt | pp64.bin --pw-min=8 | hashcat -a 0 -m #type -w 4 -O hashes.txt -
 ```
 Reference:  
 https://www.netmux.com/blog/purple-rain-attack
+
+##
+##
+##
+##
+##
 
 <h1 class="sectionedit2" id="generic_hash_types">Example Hashes</h1>
 <h1 class="sectionedit2" id="generic_hash_types">Generic hash types</h1>
