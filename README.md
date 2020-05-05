@@ -1,10 +1,11 @@
 Hash-Mode	Hash-Name	Example
-#0	MD5	8743b52063cd84097a65d1633f5c74f5
-#10	md5($pass.$salt)	01dfae6e5d4d90d9892622325959afbe:7050461
-#20	md5($salt.$pass)	f0fda58630310a6dd91a7d8f0a4ceda2:4225637426
-#30	md5(utf16le($pass).$salt)	b31d032cfdcf47a399990a71e43c5d2a:144816
-#40	md5($salt.utf16le($pass))	d63d0e21fdc05f618d55ef306c54af82:13288442151473
-#50	HMAC-MD5 (key = $pass)	fc741db0a2968c39d9c2a5cc75b05370:1234
+```
+0	MD5	8743b52063cd84097a65d1633f5c74f5
+10	md5($pass.$salt)	01dfae6e5d4d90d9892622325959afbe:7050461
+20	md5($salt.$pass)	f0fda58630310a6dd91a7d8f0a4ceda2:4225637426
+30	md5(utf16le($pass).$salt)	b31d032cfdcf47a399990a71e43c5d2a:144816
+40	md5($salt.utf16le($pass))	d63d0e21fdc05f618d55ef306c54af82:13288442151473
+50	HMAC-MD5 (key = $pass)	fc741db0a2968c39d9c2a5cc75b05370:1234
 60	HMAC-MD5 (key = $salt)	bfd280436f45fa38eaacac3b00518f29:1234
 100	SHA1	b89eaac7e61417341b710b727768294d0e6a277b
 110	sha1($pass.$salt)	2fc5a684737ce1bf7b3b239df432416e0dd07357:2014
@@ -408,3 +409,4 @@ These hash types used to be in some version of hashcat, but were removed or repl
 
 Hash-Mode	Hash-Name	Example	
 5000	SHA-3 (Keccak)	203f88777f18bb4ee1226627b547808f38d90d3e106262b5de9ca943b57137b6	replaced by specific Keccak types in hashcat 5.0.0
+```
