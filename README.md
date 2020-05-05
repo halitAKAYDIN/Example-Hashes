@@ -1,9 +1,4 @@
 <div class="page">
-    <!-- wikipage start -->
-    <!-- TOC START -->
-<div id="dw__toc" class="dw__toc">
-<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
-<div aria-expanded="true" style="">
 
 </div>
 </div>
