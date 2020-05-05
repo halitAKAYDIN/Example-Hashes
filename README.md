@@ -5,13 +5,6 @@
 <h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
 <div aria-expanded="true" style="">
 
-<ul class="toc">
-<li class="level1"><div class="li"><a href="#example_hashes">Example hashes</a></div></li>
-<li class="level1"><div class="li"><a href="#generic_hash_types">Generic hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#specific_hash_types">Specific hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#legacy_hash_types">Legacy hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#superseded_hash_types">Superseded hash types</a></div></li>
-</ul>
 </div>
 </div>
 <!-- TOC END -->
