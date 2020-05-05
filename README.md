@@ -1012,54 +1012,7 @@ Joomla (MD5) </td><td class="col2"> $P$984478476IagS59wHZvyQMArzfx58u. </td>
 	</tr>
 </tbody></table></div>
 
-<p>
-<sup>*</sup> In beta or not yet released<br>
 
-<sup>1</sup> Password: “hashcat!”<br>
-
-<sup>2</sup> Rounds=[# of iterations] is <strong>optional</strong> here, after signature, e.g. $5$rounds=5000 <br>
-
-<sup>3</sup> As in <sup>2</sup> but the number of rounds <strong>must</strong> be specified<br>
-
-<sup>4</sup> The hash used here is <strong>not</strong> the one sent via e.g. the web interface to LastPass servers (pbkdf2_sha256_hex (pbkdf2_sha256 ($pass, $email, $iterations), $pass, 1) but instead the one stored (by e.g. your browser or the pocket version) to disk. For instance, Opera and Chrome store the hash in local SQLite databases; Firefox uses files ending with “lpall.slps” - for Linux: 2nd line is interesting / base64 decode it; for Windows, see <a href="https://hashcat.net/forum/thread-2701-post-16111.html#pid16111" class="urlextern" title="https://hashcat.net/forum/thread-2701-post-16111.html#pid16111" rel="nofollow">here</a> - and_key.itr<br>
-
-<sup>5</sup> You can consider the second part as a “salt”. If it is equal to 00000000, the CRC32 code will be considered as “not salted”<br>
-
-<sup>6</sup> The raw sha256 output is used for base64() encoding (not the hexadecimal output)<br>
-
-<sup>7</sup> The format is hash:salt:id<br>
-
-<sup>8</sup> Password: “hashcat1”<br>
-
-<sup>9</sup> Password: “hashcat1hashcat1hashcat1”<br>
-
-<sup>10</sup> This file actually contains several examples of the different hash+cipher combinations. The password is stored in the pw file.<br>
-
-<sup>11</sup> You can use <a href="https://github.com/philsmd/itunes_backup2hashcat/" class="urlextern" title="https://github.com/philsmd/itunes_backup2hashcat/" rel="nofollow">itunes_backup2hashcat</a> to extract the hashes from the Manifest.plist file<br>
-
-<sup>12</sup> Password: “hashcat!!!”. Min/max password length is exactly 10 characters/bytes.<br>
-
-<sup>13</sup> You can use <a href="https://github.com/Fist0urs/AxSuite" class="urlextern" title="https://github.com/Fist0urs/AxSuite" rel="nofollow">AxSuite by Fist0urs</a> to retrieve the hashes.<br>
-
-<sup>14</sup> Password: a288fcf0caaacda9a9f58633ff35e8992a01d9c10ba5e02efdf8cb5d730ce7bc<br>
-
-<sup>15</sup> Password: 5b13d4babb3714ccc62c9f71864bc984efd6a55f237c7a87fc2151e1ca658a9d<br>
-
-<sup>16</sup> PIM: 500<br>
-
-<sup>17</sup> full password in output is hashcat, but input provided must be without the first 6 bytes (therefore just: t)<br>
-
-<sup>18</sup> 88f43854ae7b1624fc2ab7724859e795130f4843c7535729e819cf92f39535dc<br>
-
-<sup>19</sup> use this SQL query to extract the hashes:<br>
-
-</p>
-<pre class="code">SELECT user, CONCAT('$mysql',LEFT(authentication_string,6),'*',INSERT(HEX(SUBSTR(authentication_string,8)),41,0,'*')) AS hash FROM user WHERE plugin = 'caching_sha2_password' AND authentication_string NOT LIKE '%INVALIDSALTANDPASSWORD%';</pre>
-
-<p>
-<br>
-
-</p>
 
 </div>
 
@@ -1250,5 +1203,4 @@ These hash types used to be in some version of hashcat, but were removed or repl
 
 </div>
 
-    <!-- wikipage stop -->
   </div>
