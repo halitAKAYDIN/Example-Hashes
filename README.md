@@ -1,5 +1,7 @@
 <div class="page">
 </div>
+<h1 href="https://github.com/halitAKAYDIN/Example-Hashes/blob/master/Hashcat-Cheatsheet.md" target="_blank">Hashcat Cheatsheet</h1>
+
 
 <h1 class="sectionedit2" id="generic_hash_types">Generic hash types</h1>
 <div class="level1">
