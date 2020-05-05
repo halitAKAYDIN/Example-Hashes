@@ -1,8 +1,9 @@
 <div class="page">
 </div>
-<h1 href="https://github.com/halitAKAYDIN/Example-Hashes/blob/master/Hashcat-Cheatsheet.md" target="_blank">Hashcat Cheatsheet</h1>
+<h1 class="sectionedit2" id="generic_hash_types">Hashcat Cheatsheet</h1>
+<a href="https://github.com/halitAKAYDIN/Example-Hashes/blob/master/Hashcat-Cheatsheet.md" target="_blank">Hashcat Cheatsheet</a>
 
-
+<h1 class="sectionedit2" id="generic_hash_types">Example Hashes</h1>
 <h1 class="sectionedit2" id="generic_hash_types">Generic hash types</h1>
 <div class="level1">
 <div class="plugin_tablelayout_placeholder" data-tablelayout="{&quot;colwidth&quot;:[&quot;60px&quot;,&quot;340px&quot;,&quot;540px&quot;],&quot;rowsHeaderSource&quot;:&quot;1&quot;,&quot;rowsVisible&quot;:&quot;0&quot;,&quot;float&quot;:&quot;left&quot;}"></div><div class="table sectionedit3"><table class="inline">
