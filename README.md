@@ -1,20 +1,11 @@
 <div class="page">
 
-</div>
-</div>
-<!-- TOC END -->
-
-<h1 class="sectionedit1" id="example_hashes">Example hashes</h1>
-<div class="level1">
-
-<p>
-If you get a “line length exception” error in hashcat, it is often because the hash mode that you have requested does not match the hash. To verify, you can test your commands against example hashes.
-</p>
-
-<p>
-Unless otherwise noted, the password for all example hashes is <strong>hashcat</strong>.
-</p>
-
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#generic_hash_types">Generic hash types</a></div></li>
+<li class="level1"><div class="li"><a href="#specific_hash_types">Specific hash types</a></div></li>
+<li class="level1"><div class="li"><a href="#legacy_hash_types">Legacy hash types</a></div></li>
+<li class="level1"><div class="li"><a href="#superseded_hash_types">Superseded hash types</a></div></li>
+</ul>
 </div>
 
 <h1 class="sectionedit2" id="generic_hash_types">Generic hash types</h1>
