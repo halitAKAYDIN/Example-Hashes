@@ -2,14 +2,7 @@
 </div>
 <h1 class="sectionedit2" id="generic_hash_types">Hashcat Cheatsheet</h1>
 # Hashcat-Cheatsheet
-Hashcat Cheatsheet for OSCP
-https://hashcat.net/wiki/doku.php?id=hashcat
 
-## Identify Hashes
-
-`hash-identifier`
-
-Example Hashes: https://github.com/halitAKAYDIN/Generic-Hash-Types/blob/master/Hash-Types.md
 
 ## MAX POWER!
 I have found that I can squeeze some more power out of my hash cracking by adding these parameters:
