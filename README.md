@@ -6,7 +6,7 @@ https://hashcat.net/wiki/doku.php?id=hashcat
 
 `hash-identifier`
 
-Example Hashes: https://hashcat.net/wiki/doku.php?id=example_hashes
+Example Hashes: https://github.com/halitAKAYDIN/Generic-Hash-Types/blob/master/Hash-Types.md
 
 ## MAX POWER!
 I have found that I can squeeze some more power out of my hash cracking by adding these parameters:
