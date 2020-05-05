@@ -1,11 +1,4 @@
 <div class="page">
-
-<ul class="toc">
-<li class="level1"><div class="li"><a href="#generic_hash_types">Generic hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#specific_hash_types">Specific hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#legacy_hash_types">Legacy hash types</a></div></li>
-<li class="level1"><div class="li"><a href="#superseded_hash_types">Superseded hash types</a></div></li>
-</ul>
 </div>
 
 <h1 class="sectionedit2" id="generic_hash_types">Generic hash types</h1>
