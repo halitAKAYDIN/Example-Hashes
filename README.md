@@ -67,6 +67,8 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9
 |3000 | LM                                               | Operating-Systems|
 |1000 | NTLM                                             | Operating-Systems|
 
+`hashcat -m 1000 -a 3 -w 3 -O hash.txt -1 ?l?d ?1?1?1?1?1?1?1?1?1 -i --increment-min=5`
+
 ## Cracking Common Application Hashes  
 
 | ID | Description                                      | Type |
